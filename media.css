@@ -1,0 +1,180 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border;
+}
+@media(max-width:1200px){
+    .container{
+        height:auto;
+        width:100%;
+    }
+    .first-div{
+        width:40%;
+    }
+    .logodiv{
+        width:60%;
+    }
+    .upperbox{
+        width:30%;
+    }
+    .inputbox{
+      flex-wrap:wrap;
+      width:70%;
+     }
+     .input-1{
+        width:100%;
+     }
+     .input-2{
+        width:49%;
+     }
+     .input-3{
+        width:49%;
+     }
+     .searchbox{
+        width:30%;
+    }
+     .searchbox button{
+       margin-top:0px; 
+     }
+     .car{
+        width:50%;
+     }
+     .insiderbox{
+       width:80%;
+     }
+    
+}
+
+@media(max-width:1080px){
+
+    .smallnav{
+        width:95%;
+    }
+    .first-div{
+        width:45%;
+    }
+    .logodiv{
+        width:50%;
+    }
+    .header{
+        width:90%;
+    }
+    .box{
+        width:90%;
+    }
+    .small-block{
+        width:90%;
+    }
+    .small-block-2{
+        width:90%;
+    }
+    .small-footer-block{
+        width:90%;
+        display:flex;
+        flex-direction: column;
+    }
+    .leftside{
+        width:100%;
+    }
+    .insiderbox{
+        width:60%;
+    }
+    .rightside{
+        width:100%;
+        margin-top:20px;
+    }
+}
+
+@media(max-width:768px){
+
+    .smallnav{
+        width:100%;
+    }
+    .unorder-list{
+        display:none;
+    }
+    .second-div{
+        display:none;
+    }
+    .bar-icon{
+        display:inline;
+        margin-right:15px;
+    }
+    .bar-icon i{
+        font-size: 1.2rem;
+    }
+    .logodiv{
+        width:60%;
+    }
+    .lowerbox{
+        display:flex;
+        flex-direction: column;
+    }
+    .inputbox{
+        width:100%;
+    }
+    .searchbox{
+        margin-top:5px;
+        width:100%;
+    }
+    .searchbox button{
+        width:100%;
+    }
+    .upperbox{
+        width:40%;
+    }
+    .small-block-2{
+        display:flex;
+        flex-direction: column;
+    }
+    .car{
+        width:100%;
+    }
+    .insiderbox{
+       display:flex;
+       flex-direction:column;
+    }
+    .flight{
+        margin-top:20px;
+    }
+    
+
+}
+@media(max-width:580px){
+    .box{
+        width:95%;
+    }
+    .header{
+        width:95%;
+    }
+    .smallnav{
+        width:100%;
+    }
+    .upperbox{
+        width:50%;
+    }
+    .small-block{
+        width:95%;
+    }
+    .small-block-2{
+        width:95%;
+    }
+    .small-footer-block{
+        width:96%;
+    }
+}
+
+@media(max-width:480px){
+    .inputbox{
+        flex-wrap:wrap;
+    }
+    .input-2{
+        width:100%;
+    }
+    .input-3{
+        width:100%;
+    }
+    .upperbox{
+        width:100%;
+    }
+}
